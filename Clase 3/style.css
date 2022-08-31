@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(202, 202, 235);
+    background-image: url(./IMG/fondo.jpg);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: rgb(37, 23, 167);
+    background-color: rgb(106, 100, 194);
+    text-shadow: 3px 3px 3px black;
+}
+
+
+#Menú_superior {
+    color: blue;
+    background-color: bisque;
+}
+
+ul.horizontal li{
+    
+    display:block;
+    float: left;
+    padding:0 10px;
+    text-align: center;
+    }
+
+
+
