@@ -1,0 +1,46 @@
+*{  
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: rgb(37, 23, 167);
+    background-image: url(./IMG/fondotitle.jpg);
+    text-shadow: 2px 2px 2px black;
+}
+
+body{
+    background-image: url(./IMG/fondo.jpg);
+}
+
+#menusuperior {
+    color: blue;
+    background-color: bisque;
+}
+
+ul.horizontal li{
+    
+    display:block;
+    float: left;
+    padding:0 10px;
+    text-align: center;
+}
+
+.publicidad{
+    background-color: blue;
+    background-image: url(./IMG/fondotitle.jpg);
+    height: 150px;
+    width: 150px;
+    padding: 2rem;
+    border: solid 2px black;
+    margin: 2rem;
+    overflow: scroll;
+    margin-left: 5rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.footer{
+    clear: both;
+    background-color: blanchedalmond;
+}
