@@ -12,8 +12,6 @@
 
 body{
     padding: 20vh 3%;
-    background: rgb(190,193,236);
-background: linear-gradient(180deg, rgba(190,193,236,1) 0%, rgba(195,113,193,1) 50%, rgba(236,195,235,1) 95%);
 }
 
 .titleContainer h1{
