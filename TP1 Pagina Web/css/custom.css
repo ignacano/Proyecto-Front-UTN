@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    color: grey;
+}
+
+.caja{
+    margin: 1rem;
+    padding: 1rem;
+
+}
+
+.textoPresentacion{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.logoLothal{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    display: inline-block;
+    background: none;
+}
+
+#logoLothalMenu{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.imagenNosotros{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    margin: auto;
+    padding: 0%;
+}
+
+
+#navbar {
+    overflow: hidden;
+}
+
+
+#navbar a {
+    float: center;
+    display: flex;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.nuestaHistoriaIMG{
+    object-fit: fill;
+}
